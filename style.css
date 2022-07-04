@@ -1,0 +1,157 @@
+body {
+  margin:0;
+  padding:0;
+  font-family:verdana;
+}
+
+.navigation {
+  background-color:#3b4997;
+  color:white;
+  width:100%;
+  height:70px;
+  position:fixed;
+}
+
+.logo {
+  position:absolute;
+  float:left;
+  padding-top:2px;
+  padding-left:30px;
+  padding-bottom:10px;
+}
+
+.list-menu {
+  margin-left:750px;
+  padding-top:14px;
+}
+
+.list-menu ul li {
+  list-style:none;
+  display:inline-block;
+  margin-left:50px;
+}
+
+.list-menu ul li a {
+  text-decoration:none;
+  color:white;
+}
+
+.list-menu ul li a:hover {
+  color:lightskyblue;
+  font-style:italic;
+}
+
+.banner {
+  background-color:#3b5997;
+  height:618px;
+  text-align:center;
+  color:white;
+}
+
+.banner img {
+  height:200px;
+  border:6px solid white;
+  border-radius:50%;
+  margin-top:100px;
+}
+
+.banner button {
+  width:400px;
+  background-color:white;
+  font-size:1.1rem;
+  font-weight:bold;
+  margin-top:30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius:50px;
+  border:none;
+}
+
+.banner button:hover {
+  background-color:#3b5997;
+  color:white;
+  border:1px solid white;
+  transition:1s;
+}
+
+.banner h1 span:before {
+  content:'';
+  animation: gerak 8s ease;
+  transform: translateY(-50%);
+  color:lightblue;
+  font-size:70px;
+}
+
+@keyframes gerak {
+  0% {
+    content:'Selamat Datang';
+  }
+  
+  50% {
+    content:'Saya Unying';
+  }
+  
+  100% {
+    content:'Terima Kasih Sudah Singgah';
+  }
+}
+
+.box-pendidikan {
+  text-align:center;
+  align-content:center;
+  color:#4d4d4d;
+  margin-top:70px;
+}
+
+.box-softskill {
+  text-align:center;
+  align-content:center;
+  color:#4d4d4d;
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+  width:320px;
+  float:left;
+  background-color:#f0f0f0;
+  text-align:center;
+  margin: 70px 20px 90px 50px;
+  padding:30px;
+  border-radius:14px;
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {background-color:#f0d9e9;}
+
+.box-contact {text-align:center;}
+
+.box-contact h1 {color:#4d4d4d;}
+
+.box-contact img {
+  width:240px;
+  margin-bottom:14px;
+}
+
+.contact-btn button {
+  width:200px;
+  background-color:white;
+  border-radius:14px;
+  margin-bottom:14px;
+  font-size:1.1rem;
+  font-weight:bold;
+  padding:10px;
+  border:2px solid black;
+}
+
+.contact-btn button:hover {
+  background-color:#3b5997;
+  color:white;
+  transition:1s;
+  cursor:pointer;
+}
+
+.footer {
+  text-align:center;
+  background-color:grey;
+  color:white;
+  width:100%;
+  height:70px;
+}
